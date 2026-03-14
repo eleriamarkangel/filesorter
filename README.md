@@ -20,9 +20,9 @@ AutoFileSorter processes files dropped into a designated folder, validates filen
 - Accepts only filenames with exactly **3 tokens** separated by **2 underscores**:
 token1_token2_token3.ext
 BASE
-└── token1
-└── token1_token2
-└── token1_token2_YYYYMMDD_token3
+--└── token1
+--└── token1_token2
+--└── token1_token2_YYYYMMDD_token3
 - Rejects extra underscores or `.log` files.
 - Optionally quarantines invalid files.
 
